@@ -117,9 +117,12 @@ const quotes = [
 
 let btn = document.getElementById("qbtn");
 let quote = document.getElementsByClassName("quote");
+let audio = document.getElementById("audio");
 
 btn.addEventListener('click', function() {
     let random = Math.floor(Math.random() * quotes.length);
 
     quote[0].innerHTML = quotes[random].quote;
 });
+
+audio.volume = 0.2;

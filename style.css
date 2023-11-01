@@ -55,7 +55,7 @@ body {
 }
 
 .button-area .btn button {
-    background: transparent;
+    background: #444c56;
     color: #aab6c3;
     cursor: pointer;
     border: none;
@@ -73,6 +73,10 @@ body {
 .picture img {
     width: 200px;
     height: auto;
+}
+
+#audio {
+    display: none;
 }
 
 @media (width < 600px) {
