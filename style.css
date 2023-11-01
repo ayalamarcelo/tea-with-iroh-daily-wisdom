@@ -20,7 +20,7 @@ body {
     place-content: center;
     width: 550px;
     height: 450px;
-    row-gap: 20px;
+    row-gap: 10px;
 }
 
 .container .picture {
@@ -38,6 +38,7 @@ body {
     background: #2d333b;
     border-radius: 5px;
     border: 2px solid #aab6c3;
+    border-radius: 25px;
 }
 
 .text-area {
@@ -70,7 +71,7 @@ body {
 }
 
 .picture img {
-    width: 80%;
+    width: 200px;
     height: auto;
 }
 
